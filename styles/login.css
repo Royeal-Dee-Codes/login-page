@@ -85,6 +85,8 @@ button {
 }
 
 .icon-wrapper {
+  margin: 0 auto;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   letter-spacing: 12px;
@@ -94,10 +96,12 @@ button {
 }
 
 .icon-color {
+  transition: ease-out 0.2s;
   color: #252525;
 }
 
 .icon-wrapper i:hover {
+  transition: ease-in 0.2s;
   color: #fbbc39;
 }
 
